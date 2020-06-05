@@ -2,7 +2,7 @@ class PigLatinizer
   
   attr_accessor :word
   
-  def language_change(word)
+  def piglatinize(word)
     
     array = []
   
