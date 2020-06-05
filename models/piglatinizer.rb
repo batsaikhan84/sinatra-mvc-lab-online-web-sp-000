@@ -6,7 +6,7 @@ class PigLatinizer
     @text = text.downcase
   end
   
-  def convertor
+  def language_change
     
     array = []
   
