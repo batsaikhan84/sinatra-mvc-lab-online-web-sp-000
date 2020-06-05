@@ -5,6 +5,7 @@ class App < Sinatra::Base
   end
   
   post '/' do
+    @converter = 
   end
 
 end
