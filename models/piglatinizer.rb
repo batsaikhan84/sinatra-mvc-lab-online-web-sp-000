@@ -2,11 +2,7 @@ class PigLatinizer
   
   attr_accessor :word
   
-  def initialize(word)
-    @word = word.downcase
-  end
-  
-  def language_change
+  def language_change(word)
     
     array = []
   
