@@ -3,7 +3,7 @@ class PigLatinizer
   attr_accessor :word
   
   def initialize(word)
-    @word = text.downcase
+    @word = word.downcase
   end
   
   def language_change
