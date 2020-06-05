@@ -7,7 +7,7 @@ class PigLatinizer
     array = []
   
     word.split.each do |e|
-      if "aeoui".include?(e[0])
+      if "aeouiAEOUI".include?(e[0])
         array << e + "way"
       elsif 
         i = 0
