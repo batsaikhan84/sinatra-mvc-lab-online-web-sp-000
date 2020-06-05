@@ -23,6 +23,7 @@ class PigLatinizer
       word = e[sub_consonant.length..-1] + sub_consonant + "ay"
       array << word
       end
+    end
     array.join(" ")
   end
 
