@@ -12,7 +12,7 @@ class PigLatinizer
       elsif 
         i = 0
         sub_consonant = ""
-        while !"aeoui".include?(e[i])
+        while !"aeouiAEOUI".include?(e[i])
           sub_consonant << e[i]
           i += 1
         end
