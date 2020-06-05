@@ -1,16 +1,16 @@
 class PigLatinizer
   
-  attr_reader :text
+  attr_reader :word
   
-  def initialize(text)
-    @text = text.downcase
+  def initialize(word)
+    @word = text.downcase
   end
   
   def language_change
     
     array = []
   
-    text.split.each do |e|
+    word.split.each do |e|
       if "aeoui".include?(e[0])
         array << e + "way"
       elsif 
